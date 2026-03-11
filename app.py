@@ -65,8 +65,8 @@ with st.sidebar:
     st.caption("© 2026 RPA Salesteam Support")
 
 # 4. หน้าหลักของแอป
-st.title("🚚 Call Plan Salesteam Generator")
-st.markdown("##### ระบบจัดการไฟล์แผนงานรถขายและเยี่ยมร้านค้ารายบุคคล")
+st.title("🚚 Call Plan Sales-team Generator")
+st.markdown("##### ระบบจัดการไฟล์แผนงานทีมขายและเยี่ยมร้านค้ารายบุคคล")
 
 # ส่วนคำแนะนำการใช้งานแบบสวยงาม
 with st.expander("💡 วิธีการใช้งาน (คลิกเพื่ออ่าน)"):
@@ -129,3 +129,4 @@ if st.button("🚀 เริ่มสร้างไฟล์แผนงาน"
 # ฟอนต์ด้านล่างสุด
 
 st.markdown("<br><p style='text-align: center; color: gray; font-size: 12px;'>RPA Solutions for All-Channel Sales Team</p>", unsafe_allow_html=True)
+
