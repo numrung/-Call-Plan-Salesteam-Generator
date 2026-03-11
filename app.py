@@ -6,7 +6,7 @@ from Code import process_call_plan_logic
 
 # 1. ตั้งค่าหน้าเว็บ
 st.set_page_config(
-    page_title="Call Plan Salesteam Generator", 
+    page_title="Call Plan Sales-team Generator", 
     page_icon="🚚",
     layout="centered"
 )
@@ -127,4 +127,5 @@ if st.button("🚀 เริ่มสร้างไฟล์แผนงาน"
         st.warning("⚠️ โปรดอัปโหลดไฟล์และระบุชื่อ Job ให้เรียบร้อยก่อนกดเริ่ม")
 
 # ฟอนต์ด้านล่างสุด
+
 st.markdown("<br><p style='text-align: center; color: gray; font-size: 12px;'>RPA Solutions for All-Channel Sales Team</p>", unsafe_allow_html=True)
